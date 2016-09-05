@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: white;
+	background-image: url(../img/map_world.jpg);
+	background-size: cover;
+	background-position-x: 98em;
+	background-position-y: 98em;	
+}
+.franja {
+	background-color: rgba(45, 56, 99, 0.75);
+	padding: 20px 0px;
+}
+.dropdown-menu {
+	background-color: black;
+}

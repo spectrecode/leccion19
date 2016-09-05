@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ZONA HORARIA :)</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body onload="miReloj()">
+	<div class="jumbotron franja text-center">
+		<h2>ZONA HORARIA</h2>
+    	<div>HORA ACTUAL EN LIMA:
+    		<div id="reloj"></div>
+    	</div>
+	</div>
+    	<div class="btn-group botones">
+    		<div class="btn-group">
+     			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+				Madrid <span class="caret"></span>
+      			</button>
+				<ul class="dropdown-menu" role="menu">
+					<li id="españa"></li>
+				</ul>
+    		</div>
+    		<div class="btn-group">
+     			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+				Mexico DF <span class="caret"></span>
+      			</button>
+				<ul class="dropdown-menu" role="menu">
+					<li id="mexico"></li>
+				</ul>
+    		</div>
+    		<div class="btn-group">
+     			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+				Sidney <span class="caret"></span>
+      			</button>
+				<ul class="dropdown-menu" role="menu">
+					<li id="australia"></li>
+				</ul>
+    		</div>
+  		</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
